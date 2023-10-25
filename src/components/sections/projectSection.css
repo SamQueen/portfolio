@@ -1,0 +1,37 @@
+.project-section-container {
+    /* background-color: #1d1e21; */
+    background-color: #eee;
+    padding: 7% 15%;
+    min-height: 100vh;
+    position: relative;
+}
+
+.gallery {
+    margin-top: 70px;
+}
+
+.project-img-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.project-info-container {
+    width: 50%;
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
+.project-info-container p {
+    width: auto;
+    margin: 10px auto;
+}
+
+.project img {
+    width: 80%;
+    margin: auto 0;
+}
+
+.project {
+    display: flex;
+}

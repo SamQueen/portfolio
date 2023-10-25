@@ -1,0 +1,59 @@
+.nav-container {
+   width: 100vw;
+   height: 12vh; 
+   top: 0;
+   position: fixed;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: #ffffff;
+   transition: 0.5s;
+   z-index: 2;
+}
+
+.nav-active {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 10vh;
+    transition: 0.5s;
+}
+
+#logo {
+    margin-left: 30px;
+    font-size: 2.5rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nav-list {
+    display: flex;
+    list-style: none;
+    margin-right: 60px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#nav-list li {
+    margin-right: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes clicked {
+    from{transform: translateY(-2px);}
+    to{transform: translateY(2px);}
+}
+
+#nav-list li:active {
+    color: rgb(87, 87, 215);
+    animation: clicked 5s;
+}
+
+#nav-list li a {
+    text-decoration: none;
+    color: #eee;
+}
+
+#nav-list li a:hover {
+    color: rgb(124, 124, 178);
+    transition: 0.5s;
+}
