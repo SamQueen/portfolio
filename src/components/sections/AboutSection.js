@@ -7,13 +7,19 @@ function AboutSection() {
             
             <h1 id="title">About Me</h1>
 
-            <ul className='typing-container'>
-                <li id="type">Web Developer</li>
-                <li id="type">Full Stack Developer</li>
-                <li id="type">Software Developer</li>
-            </ul>
+            <div className='typing-container'>
+                <p>I'm a</p>
+                
+                <ul className='typing-list'>
+                    <li id="type">Web Developer</li>
+                    <li id="type">Full Stack Developer</li>
+                    <li id="type">Software Developer</li>
+                </ul>
+            </div>
 
             <p id="paragraph">Welcome to my corner of the web! My name is Sam Queen and I am a passionate computer science student on a mission to build beautiful web applications. My role as a developer goes beyond writing lines of code; it's about turning ideas into functional websites.</p>
+
+           
         
             <div className='tech-stack'>
                 

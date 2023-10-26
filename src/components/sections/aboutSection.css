@@ -26,7 +26,7 @@
 /* slide */
 @keyframes slide {
     100% {
-        top: -360px;
+        top: -260px;
     }
 }
 
@@ -36,17 +36,28 @@
 }
 
 .typing-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.typing-container p {
+    font-size: 3.5rem;
+    margin-right: 20px;
+}
+
+.typing-list {
     width: fit-content;
     position: relative;
     height: 100px;
     overflow: hidden;
     margin: 20px 0;
+    color: rgb(173, 122, 122);
 }
 
 #type {
     border-right: 5px solid black;
     width: 0;
-    font-size: 5em;
+    font-size: 3.6em;
     white-space: nowrap;
     overflow: hidden;
     position: relative;
