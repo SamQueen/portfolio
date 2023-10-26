@@ -26,8 +26,8 @@ function Nav() {
                 <li><a href="#title-section"> HOME </a></li>
                 <li><a href="#about-section"> ABOUT </a></li>
                 <li><a href="#project-section"> PROJECTS </a></li>
-                <li><a href="#"> RESUME </a></li>
-                <li><a href="#"> CONTACTS </a></li>
+                <li><a href="#contact-section"> RESUME </a></li>
+                <li><a href="#contact-section"> CONTACTS </a></li>
             </ul>
 
         </div>

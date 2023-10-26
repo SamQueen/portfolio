@@ -4,6 +4,7 @@ import Nav from './components/nav/Nav';
 import TitleSection from './components/sections/TitleSection';
 import AboutSection from './components/sections/AboutSection';
 import ProjectSection from './components/sections/ProjectSection';
+import ContactSection from './components/sections/ContactSection';
 
 function App() {
     return (
@@ -16,6 +17,8 @@ function App() {
             <AboutSection />
 
             <ProjectSection />
+
+            <ContactSection />
 
         </div>
     );

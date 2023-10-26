@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import './aboutSection.css';
 
 function AboutSection() {
@@ -23,65 +24,137 @@ function AboutSection() {
         
             <div className='tech-stack'>
                 
-                <div className="tech-item">
+                <motion.div 
+                    className="tech-item"
+                    initial={{x: "-200px", opacity: 0}}
+                    whileInView={{x: "0", opacity: 1}}
+                    viewport={{ once: true, amount: 0.8}}
+                    transition={{ duration: 0.5 }}
+                >
                     <img src={'tech/react.png'} />
                     <p>React</p>
-                </div>
+                </motion.div>
 
-                <div className="tech-item">
+                <motion.div 
+                    className="tech-item"
+                    initial={{x: "-200px", opacity: 0}}
+                    whileInView={{x: "0", opacity: 1}}
+                    viewport={{ once: true, amount: 0.8}}
+                    transition={{ duration: 0.7 }}
+                >
                     <img src={'tech/vite.png'} />
                     <p>Vite</p>
-                </div>
+                </motion.div>
 
-                <div className="tech-item">
+                <motion.div 
+                    className="tech-item"
+                    initial={{x: "-200px", opacity: 0}}
+                    whileInView={{x: "0", opacity: 1}}
+                    viewport={{ once: true, amount: 0.8}}
+                    transition={{ duration: 0.9 }}
+                >
                     <img src={'tech/next.png'} />
                     <p>Next.js</p>
-                </div>
+                </motion.div>
 
-                <div className="tech-item">
+                <motion.div 
+                    className="tech-item"
+                    initial={{x: "-200px", opacity: 0}}
+                    whileInView={{x: "0", opacity: 1}}
+                    viewport={{ once: true, amount: 0.8}}
+                    transition={{ duration: 1.1 }}
+                >
                     <img src={'tech/sass.png'} />
                     <p>Sass</p>
-                </div>
+                </motion.div>
 
-                <div className="tech-item">
+                <motion.div 
+                    className="tech-item"
+                    initial={{x: "-200px", opacity: 0}}
+                    whileInView={{x: "0", opacity: 1}}
+                    viewport={{ once: true, amount: 0.8}}
+                    transition={{ duration: 0.9 }}
+                >
                     <img src={'tech/jq.png'} />
                     <p>jQuery</p>
-                </div>
+                </motion.div>
 
-                <div className="tech-item">
+                <motion.div 
+                    className="tech-item"
+                    initial={{x: "-200px", opacity: 0}}
+                    whileInView={{x: "0", opacity: 1}}
+                    viewport={{ once: true, amount: 0.8}}
+                    transition={{ duration: 0.9 }}
+                >
                     <img src={'tech/node.png'} />
                     <p>Node.js</p>
-                </div>
+                </motion.div>
 
-                <div className="tech-item">
+                <motion.div 
+                    className="tech-item"
+                    initial={{x: "-200px", opacity: 0}}
+                    whileInView={{x: "0", opacity: 1}}
+                    viewport={{ once: true, amount: 0.8}}
+                    transition={{ duration: 0.9 }}
+                >
                     <img src={'tech/express.png'} />
                     <p>Express</p>
-                </div>
+                </motion.div>
 
-                <div className="tech-item">
+                <motion.div 
+                    className="tech-item"
+                    initial={{x: "-200px", opacity: 0}}
+                    whileInView={{x: "0", opacity: 1}}
+                    viewport={{ once: true, amount: 0.8}}
+                    transition={{ duration: 0.9 }}
+                >
                     <img src={'tech/mysql.png'} />
                     <p>MySQL</p>
-                </div>
+                </motion.div>
 
-                <div className="tech-item">
+                <motion.div 
+                    className="tech-item"
+                    initial={{x: "-200px", opacity: 0}}
+                    whileInView={{x: "0", opacity: 1}}
+                    viewport={{ once: true, amount: 0.8}}
+                    transition={{ duration: 0.9 }}
+                >
                     <img src={'tech/c.png'} />
                     <p>C++</p>
-                </div>
+                    </motion.div>
 
-                <div className="tech-item">
+                <motion.div 
+                    className="tech-item"
+                    initial={{x: "-200px", opacity: 0}}
+                    whileInView={{x: "0", opacity: 1}}
+                    viewport={{ once: true, amount: 0.8}}
+                    transition={{ duration: 0.9 }}
+                >
                     <img src={'tech/java.png'} />
                     <p>java</p>
-                </div>
+                </motion.div>
 
-                <div className="tech-item">
+                <motion.div 
+                    className="tech-item"
+                    initial={{x: "-200px", opacity: 0}}
+                    whileInView={{x: "0", opacity: 1}}
+                    viewport={{ once: true, amount: 0.8}}
+                    transition={{ duration: 0.9 }}
+                >
                     <img src={'tech/python.png'} />
                     <p>python</p>
-                </div>
+                </motion.div>
 
-                <div className="tech-item">
+                <motion.div 
+                    className="tech-item"
+                    initial={{x: "-200px", opacity: 0}}
+                    whileInView={{x: "0", opacity: 1}}
+                    viewport={{ once: true, amount: 0.8}}
+                    transition={{ duration: 0.9 }}
+                >
                     <img src={'tech/git.png'} />
                     <p>Git</p>
-                </div>
+                </motion.div>
 
             </div>
         </section>
