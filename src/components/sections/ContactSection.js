@@ -1,3 +1,4 @@
+import { FaLinkedinIn, FaPhoneAlt, FaGithub } from 'react-icons/fa';
 import './contactSection.css';
 
 function ContactSection() {
@@ -6,20 +7,33 @@ function ContactSection() {
             
             <h1 id='title'>Contact Me</h1>
 
-            <div className='contact-page'>
-                <p id='contact-page-title'>Send me a message🚀</p>
+           <div className='contact-section'>
+                <div className='contact-info-container'>
+                    <h3>Feel free to contact me by feeling out this form by using any of the contact methods below</h3>
 
-                <input placeholder='Name'></input>
-                <br />
-                <input placeholder='Email Address'></input>
-                <br />
-                <input placeholder='Subject'></input>
+                    <ul id="contact-icon-list">
+                        <li id='contact-icon-linkedin'><FaLinkedinIn /></li>
+                        <li id='contact-icon-gmail'>G</li>
+                        <li id='contact-icon-phone'><FaPhoneAlt /></li>
+                        <li id='contact-icon-git'><FaGithub /></li>
+                    </ul>
+                </div>
+                
+                <div className='contact-page'>
+                    <p id='contact-page-title'>Send me a message🚀</p>
 
-                <p id='contact-page-info'>I'd love to know about your project</p>
-                <textarea ></textarea>
+                    <input placeholder='Name'></input>
+                    <br />
+                    <input placeholder='Email Address'></input>
+                    <br />
+                    <input placeholder='Subject'></input>
 
-                <span id='contact-page-send-btn'>Send</span>
-            </div>
+                    <p id='contact-page-info'>I'd love to know about your project</p>
+                    <textarea ></textarea>
+
+                    <div id='contact-page-send-btn'>Send</div>
+                </div>
+           </div>
 
         </section>
     )
