@@ -9,7 +9,7 @@ function ContactSection() {
 
            <div className='contact-section'>
                 <div className='contact-info-container'>
-                    <h3>Feel free to contact me by feeling out this form by using any of the contact methods below</h3>
+                    <p>Feel free to contact me by feeling out this form by using any of the contact methods below</p>
 
                     <ul id="contact-icon-list">
                         <li id='contact-icon-linkedin'><FaLinkedinIn /></li>

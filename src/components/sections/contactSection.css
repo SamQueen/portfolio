@@ -99,7 +99,7 @@
 #contact-icon-list li {
     width: 4rem;
     height: 4rem;
-    margin: 10px 0;
+    margin: 30px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,15 +111,35 @@
     background-color: #2d3132;
 }
 
+#contact-icon-git:hover {
+    background-color: #3a3e3f;
+    transition: 0.5s;
+}
+
 #contact-icon-phone {
     background-color: #0ece0e;
+}
+
+#contact-icon-phone:hover {
+    background-color: #32e632;
+    transition: 0.5s;
 }
 
 #contact-icon-linkedin {
     background-color: #0e76a8;
 }
 
+#contact-icon-linkedin:hover {
+    background-color: #1d8bbe;
+    transition: 0.5s;
+}
+
 #contact-icon-gmail {
     background-color: #f46b10;
     font-weight: bold;
+}
+
+#contact-icon-gmail:hover {
+    background-color: #eb782b;
+    transition: 0.5s;
 }
