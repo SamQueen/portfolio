@@ -17,7 +17,7 @@ function App() {
 
             <AboutSection />
 
-            {/* <ProjectSection /> */}
+            <ProjectSection />
 
             {/* <ResumeSection /> */}
 

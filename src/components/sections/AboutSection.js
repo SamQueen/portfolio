@@ -26,7 +26,7 @@ function AboutSection() {
                 
                 <motion.div 
                     className="tech-item"
-                    initial={{x: "-200px", opacity: 0}}
+                    initial={{x: "-20px", opacity: 0}}
                     whileInView={{x: "0", opacity: 1}}
                     viewport={{ once: true, amount: 0.8}}
                     transition={{ duration: 0.5 }}
@@ -37,7 +37,7 @@ function AboutSection() {
 
                 <motion.div 
                     className="tech-item"
-                    initial={{x: "-200px", opacity: 0}}
+                    initial={{x: "-20px", opacity: 0}}
                     whileInView={{x: "0", opacity: 1}}
                     viewport={{ once: true, amount: 0.8}}
                     transition={{ duration: 0.7 }}
@@ -48,7 +48,7 @@ function AboutSection() {
 
                 <motion.div 
                     className="tech-item"
-                    initial={{x: "-200px", opacity: 0}}
+                    initial={{x: "-20px", opacity: 0}}
                     whileInView={{x: "0", opacity: 1}}
                     viewport={{ once: true, amount: 0.8}}
                     transition={{ duration: 0.9 }}
@@ -59,7 +59,7 @@ function AboutSection() {
 
                 <motion.div 
                     className="tech-item"
-                    initial={{x: "-200px", opacity: 0}}
+                    initial={{x: "-20px", opacity: 0}}
                     whileInView={{x: "0", opacity: 1}}
                     viewport={{ once: true, amount: 0.8}}
                     transition={{ duration: 1.1 }}
@@ -70,7 +70,7 @@ function AboutSection() {
 
                 <motion.div 
                     className="tech-item"
-                    initial={{x: "-200px", opacity: 0}}
+                    initial={{x: "-20px", opacity: 0}}
                     whileInView={{x: "0", opacity: 1}}
                     viewport={{ once: true, amount: 0.8}}
                     transition={{ duration: 0.9 }}
@@ -81,7 +81,7 @@ function AboutSection() {
 
                 <motion.div 
                     className="tech-item"
-                    initial={{x: "-200px", opacity: 0}}
+                    initial={{x: "-20px", opacity: 0}}
                     whileInView={{x: "0", opacity: 1}}
                     viewport={{ once: true, amount: 0.8}}
                     transition={{ duration: 0.9 }}
@@ -92,7 +92,7 @@ function AboutSection() {
 
                 <motion.div 
                     className="tech-item"
-                    initial={{x: "-200px", opacity: 0}}
+                    initial={{x: "-20px", opacity: 0}}
                     whileInView={{x: "0", opacity: 1}}
                     viewport={{ once: true, amount: 0.8}}
                     transition={{ duration: 0.9 }}
@@ -103,7 +103,7 @@ function AboutSection() {
 
                 <motion.div 
                     className="tech-item"
-                    initial={{x: "-200px", opacity: 0}}
+                    initial={{x: "-20px", opacity: 0}}
                     whileInView={{x: "0", opacity: 1}}
                     viewport={{ once: true, amount: 0.8}}
                     transition={{ duration: 0.9 }}
@@ -114,7 +114,7 @@ function AboutSection() {
 
                 <motion.div 
                     className="tech-item"
-                    initial={{x: "-200px", opacity: 0}}
+                    initial={{x: "-20px", opacity: 0}}
                     whileInView={{x: "0", opacity: 1}}
                     viewport={{ once: true, amount: 0.8}}
                     transition={{ duration: 0.9 }}
@@ -125,7 +125,7 @@ function AboutSection() {
 
                 <motion.div 
                     className="tech-item"
-                    initial={{x: "-200px", opacity: 0}}
+                    initial={{x: "-20px", opacity: 0}}
                     whileInView={{x: "0", opacity: 1}}
                     viewport={{ once: true, amount: 0.8}}
                     transition={{ duration: 0.9 }}
@@ -136,7 +136,7 @@ function AboutSection() {
 
                 <motion.div 
                     className="tech-item"
-                    initial={{x: "-200px", opacity: 0}}
+                    initial={{x: "-20px", opacity: 0}}
                     whileInView={{x: "0", opacity: 1}}
                     viewport={{ once: true, amount: 0.8}}
                     transition={{ duration: 0.9 }}
@@ -147,7 +147,7 @@ function AboutSection() {
 
                 <motion.div 
                     className="tech-item"
-                    initial={{x: "-200px", opacity: 0}}
+                    initial={{x: "-20px", opacity: 0}}
                     whileInView={{x: "0", opacity: 1}}
                     viewport={{ once: true, amount: 0.8}}
                     transition={{ duration: 0.9 }}

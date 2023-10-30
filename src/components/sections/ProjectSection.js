@@ -30,6 +30,7 @@ function ProjectSection() {
                         viewport={{ once: true, amount: 0.8}}
                     >
                         <h3>Veriloot</h3>
+                        <img id="mobile-project-img" src="projects/veriloot.JPG"></img>
                         <p>A fictional local marketplace company. This web application was created using react.</p>
                         <span id="project-btn">Demo</span>
                     </motion.div>
@@ -39,11 +40,12 @@ function ProjectSection() {
 
                     <motion.div 
                         className='project-info-container'
-                        initial={{x: "-200px", opacity: 0}}
+                        initial={{x: "-20px", opacity: 0}}
                         whileInView={{x: "0", opacity: 1}}
                         viewport={{ once: true, amount: 0.8}}
                     >
                         <h3>Veriloot</h3>
+                        <img id="mobile-project-img" src="projects/veriloot.JPG"></img>
                         <p>A fictional local marketplace company. This web application was created using react.</p>
                         <span id="project-btn">Demo</span>
                     </motion.div>
@@ -76,6 +78,7 @@ function ProjectSection() {
                         viewport={{ once: true, amount: 0.8}}
                     >
                         <h3>Veriloot</h3>
+                        <img id="mobile-project-img" src="projects/veriloot.JPG"></img>
                         <p>A fictional local marketplace company. This web application was created using react.</p>
                         <span id="project-btn">Demo</span>
                     </motion.div>

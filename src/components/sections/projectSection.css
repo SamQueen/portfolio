@@ -55,3 +55,28 @@
     background-color: rgb(33, 32, 32);
     transition: 0.5s;
 }
+
+
+#mobile-project-img {
+    width: 100%;
+    display: none;
+}
+
+/* media queries */
+@media screen and (max-width: 950px) {
+    .project {
+        justify-content: center;
+    }
+
+    .project-img-container {
+        display: none;
+    }
+
+    #mobile-project-img {
+        display: block;
+    }
+
+    .project-info-container {
+        width: 100%;
+    }
+}
