@@ -19,7 +19,7 @@ function App() {
 
             <ProjectSection />
 
-            {/* <ResumeSection /> */}
+            <ResumeSection />
 
             {/* <ContactSection /> */}
 

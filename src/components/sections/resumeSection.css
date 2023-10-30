@@ -1,11 +1,10 @@
 .resume-section-container {
-
     padding: 7% 15%;
     background-color: #eee;
 }
 
 #resume-img {
-    max-height: 1000px;
+    width: 100%;
     display: block;
     margin: 30px auto 0; 
 }
@@ -19,4 +18,12 @@
     width: 150px;
     text-align: center;
     margin: 15px auto;
+}
+
+@media screen and (max-width: 950px) {
+    .resume-section-container {
+        padding: 5% 6%;
+        background-color: #eee;
+    }
+    
 }
