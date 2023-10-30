@@ -5,6 +5,7 @@ import TitleSection from './components/sections/TitleSection';
 import AboutSection from './components/sections/AboutSection';
 import ProjectSection from './components/sections/ProjectSection';
 import ContactSection from './components/sections/ContactSection';
+import ResumeSection from './components/sections/ResumeSection';
 
 function App() {
     return (
@@ -16,9 +17,11 @@ function App() {
 
             <AboutSection />
 
-            <ProjectSection />
+            {/* <ProjectSection /> */}
 
-            <ContactSection />
+            {/* <ResumeSection /> */}
+
+            {/* <ContactSection /> */}
 
         </div>
     );

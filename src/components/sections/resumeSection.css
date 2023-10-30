@@ -1,0 +1,22 @@
+.resume-section-container {
+
+    padding: 7% 15%;
+    background-color: #eee;
+}
+
+#resume-img {
+    max-height: 1000px;
+    display: block;
+    margin: 30px auto 0; 
+}
+
+.download-btn {
+    background-color:rgb(204, 101, 103);
+    color: #eee;
+    padding: 5px 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    margin: 15px auto;
+}

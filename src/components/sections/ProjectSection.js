@@ -10,7 +10,7 @@ function ProjectSection() {
         <section id='project-section' className='project-section-container'>
             <h1 id="title">Projects</h1>
 
-            <div class="gallery">
+            <div className="gallery">
                 
                 <div className='project'>
 
