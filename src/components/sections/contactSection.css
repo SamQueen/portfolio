@@ -6,7 +6,7 @@
 
 .contact-section {
     display: flex;
-    height: 80%;
+    min-height: 80%;
     margin-top: 5%;
 }
 
@@ -69,6 +69,7 @@
 
 #contact-page-send-btn {
     /* border: 2px solid rgb(204, 101, 103); */
+    box-sizing: border-box;
     background-color:rgb(204, 101, 103);
     color: #eee;
     padding: 5px 7px;
@@ -142,4 +143,37 @@
 #contact-icon-gmail:hover {
     background-color: #eb782b;
     transition: 0.5s;
+}
+
+
+/* media queries */
+@media screen and (max-width: 1200px) {
+    .contact-section {
+        display: block;
+    }
+
+    .contact-page {
+        width: 80%;
+    }
+
+    #contact-icon-list {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact-info-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .contact-section-container {
+        background-color: #eee;
+        padding: 5% 8%;
+        min-height: 100vh;
+    }
+
+    .contact-page {
+        width: 90%;
+    }
 }

@@ -21,7 +21,7 @@ function App() {
 
             <ResumeSection />
 
-            {/* <ContactSection /> */}
+            <ContactSection />
 
         </div>
     );

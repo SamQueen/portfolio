@@ -1,7 +1,7 @@
 .project-section-container {
     /* background-color: #1d1e21; */
     background-color: #eee;
-    padding: 7% 15%;
+    padding: 4% 15%;
     min-height: 100vh;
     position: relative;
 }
@@ -41,7 +41,7 @@
 
 .project {
     display: flex;
-    margin-bottom: 33vh;
+    margin-bottom: 20vh;
 }
 
 #project-btn {

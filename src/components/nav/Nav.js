@@ -1,16 +1,17 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { FaBars } from 'react-icons/fa';
 import './nav.css';
 
 function Nav() {
+    const ref = useRef(null);
     const [scroll, setScroll] = useState(true);
     const [scroll2, setScroll2] = useState(true);
     const [navGrow, setNavGrow] = useState(false);
     
     useEffect(() => {
         document.addEventListener('scroll', () => {
-            const scrollVal = window.scrollY < 100;
-            
+            const scrollVal = window.scrollY < 100; 
+
             if (scrollVal !== scroll) {
                 setScroll(scrollVal);
             }
@@ -29,6 +30,34 @@ function Nav() {
     // set classname based on nav grow
     var className2 = (navGrow) ? 'nav-grow' : ''; 
 
+    // scroll to view event
+    const scrollToView = (event) => {
+        var element = '';
+        const name = event.target.innerText;
+
+        switch(name) {
+            case 'HOME':
+                element = document.getElementById('title-section');
+                break;
+            case 'ABOUT':
+                element = document.getElementById('about-section');
+                break;
+            case 'PROJECTS':
+                element = document.getElementById('project-section');
+                break;
+            case 'RESUME':
+                element = document.getElementById('resume-section');
+                break;
+            case 'CONTACT':
+                element = document.getElementById('contact-section');
+                break;
+            default: 
+                break;
+        }
+        
+        element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+    }
+
     return(
         <div className={`nav-container ${className} ${className3}`}>
             
@@ -44,16 +73,16 @@ function Nav() {
                     <li><a href="#about-section"> ABOUT </a></li>
                     <li><a href="#project-section"> PROJECTS </a></li>
                     <li><a href="#resume-section"> RESUME </a></li>
-                    <li><a href="#contact-section"> CONTACTS </a></li>
+                    <li><a href="#contact-section"> CONTACT </a></li>
                 </ul>
             </div>
 
             <ul id="nav-list">
-                <li><a href="#title-section"> HOME </a></li>
-                <li><a href="#about-section"> ABOUT </a></li>
-                <li><a href="#project-section"> PROJECTS </a></li>
-                <li><a href="#resume-section"> RESUME </a></li>
-                <li><a href="#contact-section"> CONTACTS </a></li>
+                <li onClick={scrollToView}> HOME </li>
+                <li onClick={scrollToView}> ABOUT </li>
+                <li onClick={scrollToView}> PROJECTS </li>
+                <li onClick={scrollToView}><a> RESUME </a></li>
+                <li onClick={scrollToView}>CONTACT </li>
             </ul>
 
         </div>
