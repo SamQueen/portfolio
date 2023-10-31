@@ -48,12 +48,7 @@
     animation: clicked 5s;
 }
 
-#nav-list li a {
-    text-decoration: none;
-    color: #eee;
-}
-
-#nav-list li a:hover {
+#nav-list li:hover {
     color: rgb(124, 124, 178);
     transition: 0.5s;
 }
@@ -69,7 +64,7 @@
 /* mobile nav */
 .mobile-nav {
     position: absolute;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
     top: 10vh;
     transform: translateY(-1000px);
@@ -83,9 +78,13 @@
     list-style: none;
 }
 
-#mobile-nav-list a {
-    text-decoration: none;
-    color: #eee;
+#mobile-nav-list li {
+    cursor: pointer;
+}
+
+#mobile-nav-list li:hover {
+    color: rgb(124, 124, 178);
+    transition: 0.5s;
 }
 
 .nav-grow {

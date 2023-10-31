@@ -69,11 +69,11 @@ function Nav() {
 
             <div className={`mobile-nav ${className2}`}>
                 <ul id="mobile-nav-list">
-                    <li><a href="#title-section"> HOME </a></li>
-                    <li><a href="#about-section"> ABOUT </a></li>
-                    <li><a href="#project-section"> PROJECTS </a></li>
-                    <li><a href="#resume-section"> RESUME </a></li>
-                    <li><a href="#contact-section"> CONTACT </a></li>
+                    <li onClick={scrollToView}> HOME </li>
+                    <li onClick={scrollToView}> ABOUT </li>
+                    <li onClick={scrollToView}> PROJECTS </li>
+                    <li onClick={scrollToView}> RESUME </li>
+                    <li onClick={scrollToView}> CONTACT </li>
                 </ul>
             </div>
 
